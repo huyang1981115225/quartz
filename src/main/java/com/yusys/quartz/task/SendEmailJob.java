@@ -33,10 +33,10 @@ public class SendEmailJob implements Job {
         System.out.println("时间到了，开始发送邮件..." + new Date());
 
         // 收件人电子邮箱
-        String to = "huyang1@yusys.com.cn";
+        String to = "*****@qq.com";
 
         // 发件人电子邮箱
-        String from = "1981115225@qq.com";
+        String from = "*****@qq.com";
 
         // 指定发送邮件的主机为 localhost
         String host = "smtp.qq.com";
